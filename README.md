@@ -18,6 +18,6 @@ $ yarn add -D @jvdx/jest-preset
 
 ```json
 {
-  "extend": "@jvdx/jest-preset"
+  "preset": "@jvdx/jest-preset"
 }
 ```
