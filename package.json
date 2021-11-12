@@ -1,0 +1,36 @@
+{
+  "name": "@jvdx/jest-preset",
+  "version": "0.0.1",
+  "description": "jvdx's jest preset",
+  "author": "Joel Voss <mail@joelvoss.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/joelvoss/jvdx-jest-preset",
+  "bugs": {
+    "url": "https://github.com/joelvoss/jvdx-jest-preset/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelvoss/jvdx-jest-preset.git"
+  },
+  "main": "jest-preset.js",
+  "files": [
+    "jest-preset.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "jest",
+    "preset",
+    "jvdx"
+  ],
+  "dependencies": {
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
+    "jest-watch-typeahead": "^1.0.0",
+    "ts-jest": "^27.0.7"
+  },
+  "scripts": {
+    "test": "jest --config jest-preset.js --showConfig"
+  }
+}
