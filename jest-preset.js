@@ -1,6 +1,8 @@
 const config = {
 	testEnvironment: 'node',
-	testURL: 'http://localhost',
+	testEnvironmentOptions: {
+		url: 'http://localhost'
+	},
 	watchPlugins: [
 		require.resolve('jest-watch-typeahead/filename'),
 		require.resolve('jest-watch-typeahead/testname'),
