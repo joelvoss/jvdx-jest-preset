@@ -1,6 +1,6 @@
 {
   "name": "@jvdx/jest-preset",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "jvdx's jest preset",
   "author": "Joel Voss <mail@joelvoss.com>",
   "license": "MIT",
