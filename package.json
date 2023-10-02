@@ -12,6 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/joelvoss/jvdx-jest-preset.git"
   },
+  "engines": {
+    "node": ">=18"
+  },
   "main": "jest-preset.js",
   "files": [
     "jest-preset.js"
