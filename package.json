@@ -31,7 +31,7 @@
     "babel-jest": "^30.3.0",
     "jest": "^30.3.0",
     "jest-watch-typeahead": "^3.0.1",
-    "ts-jest": "^29.4.6"
+    "ts-jest": "^29.4.9"
   },
   "scripts": {
     "test": "jest --config jest-preset.js --showConfig"
